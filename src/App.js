@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div>
-      <h1>Items</h1>
+      <h1>System Analysis</h1>
       <ul>
         {serverPerformances.map(serverPerformance => (
           <li key={serverPerformance._id}>
